@@ -1,0 +1,59 @@
+#testimonial{
+    width: 100%;
+    padding: 13.33vmax;
+    background-color: #fff;
+    color: #292b46;
+
+    >h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    > section {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           width: 80%;
+           margin: auto;
+           height: 40rem;
+           padding: 8rem;
+           background-color: #fef2f2;
+           gap: 20px;
+
+           > article{
+            height: 100%;
+            width: 30%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            transition: 0.8s;
+            &:hover{
+                background-color: #292b46;
+                color: #fff;
+            }
+            img{
+                top: 0%;
+                position:absolute;
+                width: 100px;
+                height: 100px;
+                object-fit: contain;
+                border-radius: 50%;
+                transform:translateY(-50%);
+            }
+
+            p{
+                letter-spacing: 2px;
+                margin: 20px 0;
+                font-size: 0.9rem;
+                text-align: center;
+                overflow: hidden;
+            }
+        }
+    }
+}

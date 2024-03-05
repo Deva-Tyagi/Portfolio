@@ -1,0 +1,371 @@
+@media screen and (max-width:1367px){
+    nav{
+        padding: 0 7vmax;
+    }
+    #home{
+        height: 100vh;
+    }
+.section1{
+          padding-left: 7vmax;
+}
+    .section1 aside{
+                     width: 85%;
+                } 
+   
+    #work{
+        padding: 8rem 7vmax;
+        height: 110vh;
+        >section{
+            >article{
+            height: 20rem;
+            width: 90%;
+            }
+        .workItem{
+            padding: 2rem;
+            height: 20rem;
+            >aside{
+                >p{
+                    margin: 1rem;
+                }
+                >a{
+                    margin: 1rem;
+                }
+            }
+        }
+      }
+    }
+    #services{
+        padding: 7vmax;
+        >section{
+            height: 90%;
+        }
+    }
+    #testimonial{
+        padding: 7vmax;
+        >section{
+            width: 100%;
+        }
+    }
+    #contact>section>form{
+        >input,>button{
+            font-size:0.8rem;
+            font-weight: 400;
+            width: 50%;
+        }
+    }
+   #footer{
+    padding-left: 7vmax;
+   }
+    
+}
+
+
+@media screen and (max-width:1100px){
+    nav{
+        padding: 0 5vmax;
+    }
+    #home{
+        height: 70vh;
+    }
+.section1{
+          padding-left: 5vmax;
+}
+.section1 div h1{
+    font-size: 3rem;
+}
+    .section1 aside{
+                     width: 100%;
+                } 
+                .svg{
+                    bottom:35%;
+                }
+   
+    #work{
+        padding: 15vmax 10vmax;
+    }
+    #services{
+        padding: 5vmax;
+        text-align: center;
+    }
+    #testimonial
+       > section {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: 40rem;
+        padding: 3rem;
+        background-color: #fef2f2;
+        gap: 20px;
+        > article {
+            padding: 2rem;
+            position: relative;
+            width:25%;
+        }
+    }
+}
+
+@media screen and (max-width:900px){
+    nav{
+        padding: 0 2vmax;
+    }
+    nav h2{
+        font-size: 1.8rem;
+    }
+    nav div{
+        gap: 1rem;
+    }
+    #home{
+        height: 120vh;
+    }
+.section1{
+          padding-left: 2vmax;
+}
+.section1 .div2{
+    gap: 2rem;
+    width: 100%;
+}
+    .section1 aside{
+                     width: 85%;
+                     flex-direction: column;
+                } 
+   
+    #work{
+        padding: 8rem 0;
+        >section{
+            >article{
+            height: 25rem;
+            }
+        .workItem{
+            padding: 2rem;
+            height: 25rem;
+        }
+      }
+    }
+    #services{
+        padding: 13vmax 0;
+        height: 90vh;
+    }
+    #service >section >*>span{
+        letter-spacing: 1px;
+        margin: 0.5rem;
+    }
+    #testimonial{
+        padding: 0;
+        >h2{
+            padding: 3rem;
+            margin-bottom: 0;
+        }
+       
+        >section{
+           padding: 3rem;
+           height: 45rem;
+           justify-content: space-evenly;
+            >article{
+                width: 40%;
+                height: 50%;
+            }
+        }
+    }
+    #contact>section>form{
+
+        >h2{
+            font-size: 2.3rem;
+            font-weight: 100;
+        }
+        >input,>button{
+            width: 65%;
+        }
+    }
+   #footer{
+    padding-left: 0;
+    grid-template-columns: 1fr;
+    >div{
+        width: 100%;
+        border: none;
+        p{
+            width: 50%;
+            margin: 2rem auto;
+        }
+    }
+    >a{
+        margin: 1rem;
+    }
+   }   
+}
+
+@media screen and (max-width:786px){
+    nav div a{
+        display: none;
+    }
+    nav a button{
+        display:none;
+    }
+    .navbtn{
+        display: inline;
+    }
+ }
+
+ @media screen and (max-width:600px){
+   
+    #home section{
+        height: unset;
+        flex-direction: column-reverse;
+    }
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    table-layout: center;
+}
+
+.section2::after{
+    content: "";
+    width: 38vmax;
+    height: 38vmax;
+}
+.svg{
+    bottom: 2%;
+}
+.section1 .div1{
+    border: none;
+    padding-top: 0;
+}
+.section1 div h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.section1 .div2{
+   flex-direction: column;
+}
+    .section1 aside{
+                   align-items: center;  
+                } 
+                .section1 aside article{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                }
+                .section1 article{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .section1 article .span{
+                    display: block;
+                    width: 70%;
+                    word-wrap: break-word;
+                }
+                .section1 aside article{
+                    width: 100%;
+                text-align: center;
+                &::after{
+                top: 0;
+                left: 0%;
+            }
+            }
+            .section2{
+                border-top: none;
+            }
+            .svg{
+                font-size: 2rem;
+                bottom: 11%;
+            }
+   
+    #work{
+        >h2{
+            padding:0.5rem;
+            margin: auto;
+            position: absolute;
+            left: 36%;
+            bottom: -70%;
+            color: #fff;
+            }
+        >section{
+            >article{
+                width: 100%;
+               height: 30vmax;
+            }
+           
+        .workItem{
+            height: 35vmax;
+            box-shadow: 0 0 5px #fef2f2;
+            >aside{
+                padding: 1rem;
+
+                >h3{
+                    margin: 1rem;
+                }
+                >p{
+                    letter-spacing: 0;
+                    line-height: unset;
+                    margin: 0%;
+                    font-size: 0.75rem;
+                }
+                >a{
+                    padding: 0.4rem 0.7rem;
+                    font-size: 0.7rem;
+                    margin: 1rem;
+                }
+            }
+        }
+      }
+    }
+     #timeline{
+        .timelineBox::after{
+            left: 31px;
+        }
+        .timelineItem{
+            width: 100%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+        }
+
+        .leftTimeline{
+            left: 0%;
+        }
+        .rightTimeline{
+            left: 0%;
+        }
+        .leftTimeline, .rightTimeline{
+            &::after{
+                left: 15px;
+            }
+        }
+     }
+
+    #services{
+        >section{
+            margin: 3rem 0;
+            grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+            .serviceBox1{
+               grid-column: 1/3;
+               grid-row: unset; 
+            }
+            .serviceBox4{
+                grid-column: 1/3;
+            }
+        }
+    }
+    #testimonial{
+    
+        >section{
+          height: unset;
+          gap: 3rem;
+            >article{
+                width: 100%;
+                height: 100vw;
+               
+            }
+        }
+    }
+    #contact{
+        grid-template-columns: 1fr;
+        >aside{
+            display: none;
+        }
+    }
+
+}

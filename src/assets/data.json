@@ -1,0 +1,44 @@
+{
+ "projects": [
+    {
+        "date":  "2023-08-3",
+         "title": "College-Website",
+         "description" : "This is the sample description about the project details,  which can be expanded upon by clicking on the below link",
+         "url": "https://github.com/Deva-Tyagi/College-Website",
+         "imgSrc": "https://www.euttaranchal.com/icms/cms-photos/1401-1630422812-4862.jpg"
+    },
+
+    {
+        "date":  "2023-08-3",
+         "title": "Game-j-w",
+         "description" : "This is the sample description about the project details,  which can be expanded upon by clicking on the below link",
+         "url": "https://github.com/Deva-Tyagi/Game-J-w",
+         "imgSrc": "https://img.freepik.com/free-vector/scene-with-house-garden_1308-94512.jpg"
+    },
+
+    {
+        "date":  "2023-08-3",
+         "title": "Game-RPS",
+         "description" : "This is the sample description about the project details,  which can be expanded upon by clicking on the below link",
+         "url": "https://github.com/Deva-Tyagi/Game-RPS",
+         "imgSrc": "https://www.shutterstock.com/image-vector/rock-scissors-paper-hand-gesture-260nw-689530327.jpg"
+    },
+
+    {
+        "date":  "2023-08-3",
+         "title": "Lander",
+         "description" : "This is the sample description about the project details,  which can be expanded upon by clicking on the below link",
+         "url": "https://github.com/Deva-Tyagi/Lander1",
+         "imgSrc": "https://www.elegantthemes.com/blog/wp-content/uploads/2023/08/How-to-Create-a-Landing-Page.jpg"
+    },
+
+    {
+        "date":  "2023-08-3",
+         "title": "TechApp",
+         "description" : "This is the sample description about the project details,  which can be expanded upon by clicking on the below link",
+         "url": "https://github.com/Deva-Tyagi/React1",
+         "imgSrc": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg"
+    }
+ ]
+
+}
